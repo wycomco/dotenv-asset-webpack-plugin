@@ -1,0 +1,21 @@
+{
+    "name": "dotenv-asset-webpack-plugin",
+    "description": "A webpack plugin to autogenerate a webpack asset out of environment variables.",
+    "version": "0.1.0",
+    "license": "MIT",
+    "repository": "github:wycomco/dotenv-asset-webpack-plugin",
+    "homepage": "https://github.com/wycomco/dotenv-asset-webpack-plugin",
+    "main": "index.js",
+    "peerDependencies": {
+        "webpack": "^3 || ^4"
+    },
+    "dependencies": {
+        "dotenv": "^6.2.0"
+    },
+    "keywords": [
+        "webpack",
+        "webpack-plugin",
+        "environment",
+        "dotenv"
+    ]
+}
