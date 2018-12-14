@@ -19,7 +19,7 @@ module.exports = class DotenvAssetWebpackPlugin {
         };
 
         if (compiler.hooks) {
-            compiler.hooks.emit.tapAsync({ name: 'CopyPlugin' }, emit);
+            compiler.hooks.emit.tapAsync({ name: 'DotenvAssetWebpackPlugin' }, emit);
         } else { /* Webpack 3.x */
             compiler.plugin('emit', emit);
         }
